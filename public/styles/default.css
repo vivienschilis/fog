@@ -1,13 +1,17 @@
 body {
-  background: #A0C0E1 url('../images/fog.png') no-repeat;
+  background: #FFFFFF;
   background-position: 50% 50%;
+  color: #666;
   font:13px/1.231 arial,helvetica,clean,sans-serif;
   height: 100%;
-  padding-top: 50%;
+  text-align: center;
 }
 
 /* color reference */
-.blue {
+.light_blue {
+  color: #A0C0E1;
+}
+.dark_blue {
   color: #4182C3;
 }
 .brown {
@@ -18,4 +22,8 @@ body {
 }
 .pink {
   color: #E09EE0;
+}
+
+.head {
+  margin: 0 auto;
 }
