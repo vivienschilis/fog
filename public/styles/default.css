@@ -33,30 +33,40 @@ h1 {
   color: #E09EE0;
 }
 
-.head {}
+.head {
+  background-color: #A0C0E1;
+  height: 174px;
+}
 
 .head div {
-  background-color: #A0C0E1;
   color: #FFF;
-  height: 158px;
+  height: 174px;
   text-align: center;
 }
 
-.head .tagline {
-  height: 93px;
-  padding-top: 65px;
+.head .identity {
+  height: 154px;
+  padding: 10px 0;
+}
+
+.head .identity img {
+  vertical-align: middle;
+}
+.head .identity h1 {
+  padding-left: 10px;
+  display: inline;
 }
 
 .head .acquire {
   background-color: #4182C3;
   color: #FFF;
   text-align: center;
-  padding-top: 0.5em;
 }
 .head .acquire a, .head .acquire a:visited {
   color: #FFF;
 }
 .head .acquire dl {
+  padding-top: 0.625em;
   font-size: 1.25em;
 }
 .head .acquire dt {
@@ -69,7 +79,6 @@ h1 {
 .foot {
   background-color: #A0C0E1;
   color: #FFF;
-  font-weight: bold;
   padding: 0.5em;
   text-align: center;
 }
