@@ -6,6 +6,16 @@ body {
   height: 100%;
 }
 
+code {
+  background-color: #999;
+  padding: 0.2em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
 /* color reference */
 .light_blue {
   color: #A0C0E1;
@@ -24,3 +34,46 @@ body {
 }
 
 .head {}
+
+.head div {
+  background-color: #A0C0E1;
+  color: #FFF;
+  height: 158px;
+  text-align: center;
+}
+
+.head .tagline {
+  height: 93px;
+  padding-top: 65px;
+}
+
+.head .acquire {
+  background-color: #4182C3;
+  color: #FFF;
+  text-align: center;
+  padding-top: 0.5em;
+}
+.head .acquire a, .head .acquire a:visited {
+  color: #FFF;
+}
+.head .acquire dl {
+  font-size: 1.25em;
+}
+.head .acquire dt {
+  font-weight: bold;
+}
+.head .acquire dd {
+  padding-bottom: 0.5em;
+}
+
+.foot {
+  background-color: #A0C0E1;
+  color: #FFF;
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.foot img {
+  vertical-align: middle;
+}
