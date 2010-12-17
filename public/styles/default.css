@@ -1,13 +1,14 @@
 body {
   background: #FFFFFF;
   background-position: 50% 50%;
-  color: #666;
+  color: #666666;
   font:13px/1.231 arial,helvetica,clean,sans-serif;
   height: 100%;
 }
 
 code {
-  background-color: #999;
+  background-color: #EEEEEE;
+  color: #222222;
   padding: 0.2em;
 }
 
@@ -39,7 +40,7 @@ h1 {
 }
 
 .head div {
-  color: #FFF;
+  color: #FFFFFF;
   height: 174px;
   text-align: center;
 }
@@ -59,11 +60,11 @@ h1 {
 
 .head .acquire {
   background-color: #4182C3;
-  color: #FFF;
+  color: #FFFFFF;
   text-align: center;
 }
 .head .acquire a, .head .acquire a:visited {
-  color: #FFF;
+  color: #FFFFFF;
 }
 .head .acquire dl {
   padding-top: 0.625em;
@@ -78,7 +79,7 @@ h1 {
 
 .foot {
   background-color: #A0C0E1;
-  color: #FFF;
+  color: #FFFFFF;
   padding: 0.5em;
   text-align: center;
 }
