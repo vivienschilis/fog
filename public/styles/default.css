@@ -22,10 +22,13 @@ h1 {
   color: #A0C0E1;
 }
 .dark_blue {
-  color: #4182C3;
+  color: #70A1D2;
 }
 .brown {
   color: #C38241;
+}
+.teal {
+  color: #9EE0E0;
 }
 .green {
   color: #9EE09E;
@@ -61,7 +64,7 @@ h1 {
 }
 
 .head .acquire {
-  background-color: #4182C3;
+  background-color: #70A1D2;
   border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
   color: #FFFFFF;
