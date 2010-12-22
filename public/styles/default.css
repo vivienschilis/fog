@@ -84,6 +84,10 @@ h1 {
   padding-bottom: 0.5em;
 }
 
+.body {
+  padding: 1em;
+}
+
 .foot {
   background-color: #A0C0E1;
   border-radius: 8px 8px 0 0;
