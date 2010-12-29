@@ -8,12 +8,19 @@ body {
 
 code {
   background-color: #EEEEEE;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
   color: #222222;
   padding: 0.2em;
 }
 
 h1 {
   font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.6em;
   font-weight: bold;
 }
 
@@ -59,6 +66,7 @@ h1 {
   vertical-align: middle;
 }
 .head .identity h1 {
+  background-color: #A0C0E1;
   padding-left: 10px;
   display: inline;
 }
@@ -84,8 +92,31 @@ h1 {
   padding-bottom: 0.5em;
 }
 
-.body {
-  padding: 1em;
+.body h2 {
+  background-color: #A0C0E1;
+  border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  color: #FFFFFF;
+  margin-top: 1.25em;
+  padding: 0.625em;
+}
+
+.body .content {
+  border-color: #A0C0E1;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  padding: 0 1em;
+}
+
+.body .content code, .body .content p {
+  margin: 1em 0;
+}
+
+.body .content code {
+  display: block;
 }
 
 .foot {
@@ -93,6 +124,7 @@ h1 {
   border-radius: 8px 8px 0 0;
   -moz-border-radius: 8px 8px 0 0;
   color: #FFFFFF;
+  margin-top: 2em;
   padding: 0.5em;
   text-align: center;
 }
