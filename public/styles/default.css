@@ -92,6 +92,22 @@ h2 {
   padding-bottom: 0.5em;
 }
 
+.content dl {
+  clear: both;
+}
+
+.content dt {
+  clear: left;
+  float: left;
+  font-weight: bold;
+  padding-right: 1em;
+  text-align: right;
+  width: 10%;
+}
+
+.content dd {
+}
+
 .body h2 {
   background-color: #A0C0E1;
   border-radius: 8px 8px 0 0;
@@ -131,4 +147,61 @@ h2 {
 
 .foot img {
   vertical-align: middle;
+}
+
+table.roadmap {
+  margin: 1em;
+  width: 95%;
+}
+
+table.roadmap colgroup.service {
+  border: 4px solid #666;
+}
+
+table.roadmap th {
+  font-weight: normal;
+  border: 1px solid #666;
+}
+
+table.roadmap th.service {
+  font-weight: bold;
+  border-bottom: 4px solid #666;
+}
+
+table.roadmap th, table.roadmap tr {
+  width: 10%;
+}
+
+table.roadmap th.hidden, table.roadmap td.hidden {
+  border: 0;
+}
+
+table.roadmap th, table.roadmap td {
+  padding: 4px;
+}
+
+table.roadmap td {
+  border: 1px solid #666;
+  color: #EEE;
+  text-align: center;
+}
+
+table.roadmap td a {
+  color: #EEE;
+}
+
+table.roadmap td.complete {
+  background-color: #70A1D2;
+}
+
+table.roadmap td.na {
+  background-color: #CCC;
+}
+
+table.roadmap td.pending {
+  background-color: #E09EBF;
+}
+
+table.roadmap td.targeted {
+  background-color: #BF9EE0;
 }
