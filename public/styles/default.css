@@ -151,11 +151,6 @@ h2 {
 
 table.roadmap {
   margin: 1em;
-  width: 95%;
-}
-
-table.roadmap colgroup.service {
-  border: 4px solid #666;
 }
 
 table.roadmap th {
@@ -163,13 +158,13 @@ table.roadmap th {
   border: 1px solid #666;
 }
 
-table.roadmap th.service {
-  font-weight: bold;
-  border-bottom: 4px solid #666;
+table.roadmap th.provider {
+  text-align: right;
+  width: 100px;
 }
 
-table.roadmap th, table.roadmap tr {
-  width: 10%;
+table.roadmap th.service {
+  font-weight: bold;
 }
 
 table.roadmap th.hidden, table.roadmap td.hidden {
@@ -177,7 +172,7 @@ table.roadmap th.hidden, table.roadmap td.hidden {
 }
 
 table.roadmap th, table.roadmap td {
-  padding: 4px;
+  padding: 0.5em;
 }
 
 table.roadmap td {
