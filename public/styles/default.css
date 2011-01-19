@@ -160,7 +160,10 @@ table.roadmap th {
 
 table.roadmap th.provider {
   text-align: right;
-  width: 100px;
+}
+
+table.roadmap th.provider a {
+  color: #999;
 }
 
 table.roadmap th.service {
@@ -185,12 +188,12 @@ table.roadmap td a {
   color: #EEE;
 }
 
-table.roadmap td.complete {
-  background-color: #70A1D2;
+table.roadmap td.maintainers, table.roadmap td.maintainers a {
+  color: #999;
 }
 
-table.roadmap td.na {
-  background-color: #CCC;
+table.roadmap td.complete {
+  background-color: #70A1D2;
 }
 
 table.roadmap td.pending {
