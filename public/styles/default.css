@@ -149,57 +149,57 @@ h2 {
   vertical-align: middle;
 }
 
-table.roadmap {
+table.providers {
   margin: 1em;
 }
 
-table.roadmap th {
+table.providers th {
   font-weight: normal;
   border: 1px solid #666;
 }
 
-table.roadmap th.provider {
+table.providers th.provider {
   text-align: right;
 }
 
-table.roadmap th.provider a {
+table.providers th.provider a {
   color: #999;
 }
 
-table.roadmap th.service {
+table.providers th.service {
   font-weight: bold;
 }
 
-table.roadmap th.hidden, table.roadmap td.hidden {
+table.providers th.hidden, table.providers td.hidden {
   border: 0;
 }
 
-table.roadmap th, table.roadmap td {
+table.providers th, table.providers td {
   padding: 0.5em;
 }
 
-table.roadmap td {
+table.providers td {
   border: 1px solid #666;
   color: #EEE;
   text-align: center;
 }
 
-table.roadmap td a {
+table.providers td a {
   color: #EEE;
 }
 
-table.roadmap td.maintainers, table.roadmap td.maintainers a {
+table.providers td.maintainers, table.providers td.maintainers a {
   color: #999;
 }
 
-table.roadmap td.complete {
+table.providers td.complete {
   background-color: #70A1D2;
 }
 
-table.roadmap td.pending {
+table.providers td.pending {
   background-color: #E09EBF;
 }
 
-table.roadmap td.targeted {
+table.providers td.targeted {
   background-color: #BF9EE0;
 }

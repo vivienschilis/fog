@@ -1,12 +1,19 @@
 ---
 layout: default
-title:  fog - roadmap
+title:  fog - providers
 ---
 
-<h2>Roadmap</h2>
+<h2>Providers</h2>
 <div class='content'>
 
-  <table class='roadmap'>
+  <!-- Template
+    <td class='complete'>complete</td>
+    <td class='pending'>pending</td>
+    <td class='targeted'>targeted</td>
+    <td class='maintainers'>?</td>
+  -->
+
+  <table class='providers'>
     <thead>
       <tr>
         <th class='hidden'></th>
@@ -36,7 +43,7 @@ title:  fog - roadmap
 
       <tr>
         <th class='provider'>
-          Bluebox
+          <b><em>Bluebox</b></em>
           [
             <a href='https://www.bluebox.net/solutions/simple/order'>+</a>
           |
@@ -51,7 +58,7 @@ title:  fog - roadmap
 
       <tr>
         <th class='provider'>
-          Brightbox
+          <b><em>Brightbox</b></em>
           [
             <a href='http://beta.brightbox.com/beta#signup'>+</a>
           |
@@ -66,7 +73,7 @@ title:  fog - roadmap
 
       <tr>
         <th class='provider'>
-          GoGrid
+          <b><em>GoGrid</em></b>
           [
             <a href='http://www.gogrid.com/signUp'>+</a>
           |
@@ -153,17 +160,10 @@ title:  fog - roadmap
         <td class='pending'>pending</td>
         <td class='maintainers'><a href='http://github.com/geemus'>geemus</a></td>
       </tr>
-
-      <!-- Template
-        <td class='complete'>complete</td>
-        <td class='pending'>pending</td>
-        <td class='targeted'>targeted</td>
-        <td class='maintainers'>?</td>
-      -->
     </tbody>
   </table>
 
-  <table class='roadmap'>
+  <table class='providers'>
     <thead>
       <tr>
         <th class='hidden'></th>
@@ -235,17 +235,10 @@ title:  fog - roadmap
         <td class='pending'>pending</td>
         <td class='maintainers'>?</td>
       </tr>
-
-      <!-- Template
-        <td class='complete'>complete</td>
-        <td class='pending'>pending</td>
-        <td class='targeted'>targeted</td>
-        <td class='maintainers'>?</td>
-      -->
     </tbody>
   </table>
 
-  <table class='roadmap'>
+  <table class='providers'>
     <thead>
       <tr>
         <th class='hidden'></th>
@@ -310,16 +303,69 @@ title:  fog - roadmap
         <td class='pending'>pending</td>
         <td class='maintainers'>?</td>
       </tr>
-
-      <!-- Template
-        <td class='complete'>complete</td>
-        <td class='pending'>pending</td>
-        <td class='targeted'>targeted</td>
-        <td class='maintainers'>?</td>
-      -->
     </tbody>
   </table>
 
+  <table class='providers'>
+    <thead>
+      <tr>
+        <th class='hidden'></th>
+        <th class='service' colspan='3'>AWS (misc)</th>
+        <th class='hidden'></th>
+      </tr>
+      <tr>
+        <th>Provider [signup|docs]</th><th>Requests</th><th>Models</th><th>Mocks</th><th>Maintainers</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th class='provider'>
+          Elastic Load Balancing (ELB)
+          [
+            <a href='https://www.rackspacecloud.com/signup'>FIXME</a>
+          |
+            <a href='http://docs.rackspacecloud.com/servers/api/cs-devguide-latest.pdf'>FIXME</a>
+          ]
+        </th>
+        <td class='complete'>complete</td>
+        <td class='pending'>pending</td>
+        <td class='pending'>pending</td>
+        <td class='maintainers'>?</td>
+      </tr>
+
+      <tr>
+        <th class='provider'>
+          Simple Email Service (SES)
+          [
+            <a href='https://www.rackspacecloud.com/signup'>FIXME</a>
+          |
+            <a href='http://docs.rackspacecloud.com/servers/api/cs-devguide-latest.pdf'>FIXME</a>
+          ]
+        </th>
+        <td class='complete'>complete</td>
+        <td class='pending'>pending</td>
+        <td class='pending'>pending</td>
+        <td class='maintainers'>?</td>
+      </tr>
+
+      <tr>
+        <th class='provider'>
+          SimpleDB
+          [
+            <a href='https://www.rackspacecloud.com/signup'>FIXME</a>
+          |
+            <a href='http://docs.rackspacecloud.com/servers/api/cs-devguide-latest.pdf'>FIXME</a>
+          ]
+        </th>
+        <td class='complete'>complete</td>
+        <td class='complete'>complete</td>
+        <td class='pending'>pending</td>
+        <td class='maintainers'>?</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <p>
     Status of each service is defined by its progress along the docs, requests, models, mocks spectrum in the most recent released version.
@@ -327,23 +373,29 @@ title:  fog - roadmap
 
   <dl>
     <dt>Requests</dt>
-    <dd>all basic operations needed to support the shared api are implemented and tested</dd>
+      <dd>all basic operations needed to support the shared api are implemented and tested</dd>
     <dt>Models</dt>
-    <dd>service passes live, shared tests</dd>
+      <dd>service passes live, shared tests</dd>
     <dt>Mocks</dt>
-    <dd>service passes mocked, shared tests</dd>
+      <dd>service passes mocked, shared tests</dd>
   </dl>
 
   <p>
-    Completion is defined by progress along the n/a, pending, targeted, completed spectrum.
+    Completion is defined by progress along the pending to completed spectrum.
   </p>
 
   <dl>
     <dt>pending<dt>
-    <dd>service is offered but is not yet completed</dd>
+      <dd>service is in progress but is not yet completed</dd>
     <dt>completed</dt>
-    <dd>service is complete as per above</dd>
+      <dd>service is complete as per above</dd>
   </dl>
 
-  <p>Want to join the list of maintainers? <a href="https://github.com/inbox/new/geemus">Contact geemus</a> about taking it to the next level.</p>
+  <p>
+    Want to join the list of maintainers? <a href="https://github.com/inbox/new/geemus">Contact geemus</a> about taking it to the next level.
+  </p>
+
+  <p>
+    Special thanks to providers listed in <b><em>bold italics</em></b> for donating resources for fog tests!
+  </p>
 </div>
