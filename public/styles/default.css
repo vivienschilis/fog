@@ -17,6 +17,8 @@ code {
 h1 {
   font-size: 2em;
   font-weight: bold;
+  margin-bottom: -0.5em;
+  padding: 0.5em 0.5em 0em 0.5em;
 }
 
 h2 {
