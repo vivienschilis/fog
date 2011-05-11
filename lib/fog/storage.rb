@@ -1,11 +1,11 @@
 module Fog
   class Storage
+    require 'fog/storage/aws'
 
     def self.new(attributes)
       attributes = attributes.dup # prevent delete from having side effects
       case provider = attributes[:provider] # attributes.delete(:provider)
       when 'AWS'
-        require 'fog/storage/aws'
         Fog::AWS::Storage.new(attributes)
       when 'Google'
         require 'fog/storage/google'

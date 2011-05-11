@@ -1,5 +1,8 @@
 module Fog
   module AWS
+    require 'fog/core/parser'
+    require 'mime/types'
+
     class Storage < Fog::Service
 
       requires :aws_access_key_id, :aws_secret_access_key
@@ -216,9 +219,6 @@ module Fog
             warning << " [light_black](" << location << ")[/] "
             Formatador.display_line(warning)
           end
-
-          require 'fog/core/parser'
-          require 'mime/types'
 
           @aws_access_key_id = options[:aws_access_key_id]
           @aws_secret_access_key = options[:aws_secret_access_key]
